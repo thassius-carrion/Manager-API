@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Manager.Domain",
-    "\\Manager.Domain\\Entities"
+    "\\4- Manager.Infra",
+    "\\4- Manager.Infra\\Interfaces",
+    "\\4- Manager.Infra\\Repositories"
   ],
   "PreviewInSolutionExplorer": false
 }
