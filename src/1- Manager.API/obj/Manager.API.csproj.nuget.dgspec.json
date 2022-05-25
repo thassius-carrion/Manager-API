@@ -27,7 +27,20 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj"
+              },
+              "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj"
+              },
+              "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj"
+              },
+              "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,6 +56,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [
@@ -59,6 +76,271 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj",
+        "projectName": "Manager.Domain",
+        "projectPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj",
+        "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "fluentvalidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj",
+        "projectName": "Manager.Service",
+        "projectPath": "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj",
+        "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\Manager\\src\\3- Manager.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj"
+              },
+              "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "automapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj",
+        "projectName": "Manager.Infra",
+        "projectPath": "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj",
+        "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\Manager\\src\\4- Manager.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj",
+        "projectName": "Manager.Core",
+        "projectPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj",
+        "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
