@@ -1,11 +1,13 @@
 using AutoMapper;
 using Manager.API.ViewModel;
 using Manager.Domain.Entities;
+using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
 using Manager.Infra.Repositories;
 using Manager.Service.DTO;
 using Manager.Service.Interfaces;
 using Manager.Service.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-#region
+#region AutoMapper
 
 var autoMapperConfig = new MapperConfiguration(cfg =>
 {
@@ -25,8 +27,10 @@ builder.Services.AddSingleton(autoMapperConfig.CreateMapper());
 
 #endregion
 
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddSingleton(d => Configuration);
+//builder.Services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration));
+//builder.Services.AddScoped<IUserService, UserService>();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

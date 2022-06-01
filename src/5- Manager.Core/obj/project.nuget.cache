@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SpJKpGATSuXHf9T8DbTS8PCS6wIgnwGYkQllZ+aEGn40YJhJRc9a9/q3zsy5azgjD3kwuGevSF7/azxb83JfFg==",
+  "dgSpecHash": "LoYKXHU/w6QCkv/aa19rosQnKPM98I2gK1MfouBaS03h66y4g8Ep5gRIMBKB0ycDgUieCq/Uwlamwi1y4TxQVg==",
   "success": true,
-  "projectFilePath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj",
+  "projectFilePath": "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\Manager.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

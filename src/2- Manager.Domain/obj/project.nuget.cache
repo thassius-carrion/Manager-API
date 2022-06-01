@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QdzAkKMKSrWMTv/DQsb6xV71x1kR6gaJGwHIPOScOe3i1PMGjzhkfGPS/qeqdS/i4HPriKjqp2UXvPdmD2U0aA==",
+  "dgSpecHash": "7YPsx8wc1uVK3dC7A1C8K53p9WsZ25sfNPG0CFXRDH+wWRoiXGbvj4jfwnpC6VWp16oOKrEPw3+Vr5kEKEfgQw==",
   "success": true,
-  "projectFilePath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\dev\\Manager-API\\Manager-API\\src\\2- Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Thassius\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
   ],
   "logs": []
 }

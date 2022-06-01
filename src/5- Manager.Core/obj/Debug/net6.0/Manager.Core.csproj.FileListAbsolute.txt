@@ -10,3 +10,15 @@ D:\dev\Manager\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.dll
 D:\dev\Manager\src\5- Manager.Core\obj\Debug\net6.0\refint\Manager.Core.dll
 D:\dev\Manager\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.pdb
 D:\dev\Manager\src\5- Manager.Core\obj\Debug\net6.0\ref\Manager.Core.dll
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\bin\Debug\net6.0\Manager.Core.deps.json
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\bin\Debug\net6.0\Manager.Core.dll
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\bin\Debug\net6.0\Manager.Core.pdb
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.csproj.AssemblyReference.cache
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfoInputs.cache
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfo.cs
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.csproj.CoreCompileInputs.cache
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.dll
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\refint\Manager.Core.dll
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\Manager.Core.pdb
+C:\dev\Manager-API\Manager-API\src\5- Manager.Core\obj\Debug\net6.0\ref\Manager.Core.dll

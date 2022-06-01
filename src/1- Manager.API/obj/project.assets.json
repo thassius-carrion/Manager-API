@@ -2099,19 +2099,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thassius\\.nuget\\packages\\": {}
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\Manager\\src\\1- Manager.API\\Manager.API.csproj",
+      "projectUniqueName": "C:\\dev\\Manager-API\\Manager-API\\src\\1- Manager.API\\Manager.API.csproj",
       "projectName": "Manager.API",
-      "projectPath": "D:\\dev\\Manager\\src\\1- Manager.API\\Manager.API.csproj",
-      "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\Manager\\src\\1- Manager.API\\obj\\",
+      "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\1- Manager.API\\Manager.API.csproj",
+      "packagesPath": "C:\\Users\\thassius.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\Manager-API\\Manager-API\\src\\1- Manager.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thassius.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2125,17 +2125,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
-              "projectPath": "D:\\dev\\Manager\\src\\2- Manager.Domain\\Manager.Domain.csproj"
+            "C:\\dev\\Manager-API\\Manager-API\\src\\2- Manager.Domain\\Manager.Domain.csproj": {
+              "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\2- Manager.Domain\\Manager.Domain.csproj"
             },
-            "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj": {
-              "projectPath": "D:\\dev\\Manager\\src\\3- Manager.Service\\Manager.Service.csproj"
+            "C:\\dev\\Manager-API\\Manager-API\\src\\3- Manager.Service\\Manager.Service.csproj": {
+              "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\3- Manager.Service\\Manager.Service.csproj"
             },
-            "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj": {
-              "projectPath": "D:\\dev\\Manager\\src\\4- Manager.Infra\\Manager.Infra.csproj"
+            "C:\\dev\\Manager-API\\Manager-API\\src\\4- Manager.Infra\\Manager.Infra.csproj": {
+              "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\4- Manager.Infra\\Manager.Infra.csproj"
             },
-            "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj": {
-              "projectPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj"
+            "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\Manager.Core.csproj": {
+              "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\Manager.Core.csproj"
             }
           }
         }
@@ -2177,7 +2177,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Thassius\\.nuget\\packages\\": {}
+    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj",
+      "projectUniqueName": "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\Manager.Core.csproj",
       "projectName": "Manager.Core",
-      "projectPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\Manager.Core.csproj",
-      "packagesPath": "C:\\Users\\Thassius\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\Manager\\src\\5- Manager.Core\\obj\\",
+      "projectPath": "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\Manager.Core.csproj",
+      "packagesPath": "C:\\Users\\thassius.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\Manager-API\\Manager-API\\src\\5- Manager.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thassius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thassius.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
